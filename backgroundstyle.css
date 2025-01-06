@@ -1,0 +1,81 @@
+h1
+	{
+		text-align:center;
+		font-family:Cooper Std Black;
+		font-size:100px;
+		color:#191970;
+		text-shadow:8px 8px 3px yellow;
+	}
+body
+	{
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+	}
+#style
+	{
+		height:50px;
+		width:110px;
+		font-size:20px;
+		float:center;
+		font-family:arial black;
+		color:yellow;
+		vertical-align:middle;
+	}
+.container
+		{
+			width:100%
+			height:auto;
+		}
+.card:hover
+		{
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0,2);
+			opacity:2.0;
+		}
+.card
+		{
+			transition:0.3s;
+			float:center;
+			margin:auto;
+			text-align:center;
+			max-width:auto;
+			border-radius:16px;
+			opacity:0.9;
+		}
+h2
+		{
+			font-family:arial black;
+			font-weight:bold;
+			color:red;
+			text-align:center;
+		}
+.table table-dark table-striped table-responsive
+		{
+			align:center;
+		}
+.table-condensed
+		{
+			font-size: 14px;
+			width:90%;
+			align:center;
+		}
+@media screen and (min-width: 800px)
+		{
+			.table table-dark table-striped table-responsive table-condensed
+		{
+			width: 90%;
+		}
+		}
+@media screen and (min-width: 1000px) 
+		{
+.table table-dark table-striped table-responsive table-condensed
+		{
+			width: 80%;}
+		}
+#card
+		{
+			background-repeat:no-repeat;
+			border-image-repeat: repeat;
+			background-attachment: fixed;
+		}
+#fixed{}
