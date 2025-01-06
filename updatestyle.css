@@ -1,0 +1,45 @@
+	
+input[type=text]
+	{
+		width:70%;
+		padding:12px 20px;
+		margin:8px 26px;
+		display:inline-block;
+		border:1px solid #ccc;
+		font-size:15px;
+		border-radius: 25px;
+	}
+			
+button
+	{
+		padding:14px 20px;
+		margin:8px 26px;
+		border:none;
+		cursor:pointer;
+		width:10%;
+		font-size:20px;
+		border-radius: 20px;
+	}
+			
+button:hover
+	{
+		opacity:0.6;
+	}
+		
+td
+	{
+		text-align:center;
+		font-weight:bold;
+	}
+.container-fluid
+	{
+		width:100%;
+		height:100%;
+	}
+.card
+	{
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top:2%;
+		margin-bottom:10%;
+	}
